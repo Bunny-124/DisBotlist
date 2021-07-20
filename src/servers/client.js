@@ -45,8 +45,8 @@ serverClient.on('message', async message => {
 
 
 serverClient.on('ready',async () => {
-    console.log("[DisBotlist.xyz/servers]: Bot successfully connected as "+serverClient.user.tag+".");
-    serverClient.user.setPresence({ activity: { type: 'WATCHING', name: '+bump & +vote | disbitlist.xyz/servers' }, status: "dnd" });
+    console.log("[topiclist.uve.repl.co/servers]: Bot successfully connected as "+serverClient.user.tag+".");
+    serverClient.user.setPresence({ activity: { type: 'WATCHING', name: '--bump & --vote | topiclist.uve.repl.co' }, status: "idle" });
 });
 
 serverClient.makeid = length => {
